@@ -4,13 +4,14 @@
 
 | Group: 2 |
 | -------- |
-| Corey Yang-Smith |
-| Eric (Sieu) Diep |
-| Hao Liu |
-| Mehreen Akmal |
-| Jenn Bushey |
+| Corey |
+| Eric |
+| Hao |
+| Mehreen|
+| Jenn|
 
 **Table of Contents**
+
 [0 Defect Report](https://github.com/seng637-Winter/seng637-a1-ESDiep/blob/main/Defect_Report.pdf)
 
 [1 Introduction](#introduction)
