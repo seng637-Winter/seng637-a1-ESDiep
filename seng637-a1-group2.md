@@ -11,7 +11,7 @@
 | Jenn Bushey |
 
 **Table of Contents**
-[0 Defect Report]()
+[0 Defect Report](https://github.com/seng637-Winter/seng637-a1-ESDiep/blob/main/Defect_Report.pdf)
 
 [1 Introduction](#introduction)
 
