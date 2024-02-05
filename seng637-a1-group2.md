@@ -38,26 +38,26 @@ Before this lab, we knew what was mentioned in the lecture about exploratory and
 
 For the exploratory testing phase, we first thoroughly read the system requirements and drafted a shortlist of features to test. In our shortlist, we included the following features to be tested:
 
-●	Test that the customer must include a valid ATM card and valid PIN, to be verified by the bank
-●	Ensure customer can perform more than one transaction
-●	Ensure customer can withdrawal from any suitable account in multiples of $20
-●	Ensure a customer can transfer between accounts
-●	Ensure customer can abort a transaction
-●	Ensure customer can make a balance inquiry to any account linked
-●	Ensure a failed transaction is handled correctly - customer can time out envelope OR  press cancel
-●	Ensure the card will be permanently retained after 3 invalid PIN entries
-●	Ensure failure of a transaction displays message and prompts user for another transaction
-●	Ensure printed receipt is valid
--	Successful transaction
--	Date
--	Time
--	Machine location
--	Type of transaction
--	accounts 
--	amount 
--	Ending and available balance
-●	Ensure servicing is valid - on and off switch
-●	Ensure logging transactions works
+-	Test that the customer must include a valid ATM card and valid PIN, to be verified by the bank
+-	Ensure customer can perform more than one transaction
+-	Ensure customer can withdrawal from any suitable account in multiples of $20
+-	Ensure a customer can transfer between accounts
+-	Ensure customer can abort a transaction
+-	Ensure customer can make a balance inquiry to any account linked
+-	Ensure a failed transaction is handled correctly - customer can time out envelope OR  press cancel
+-	Ensure the card will be permanently retained after 3 invalid PIN entries
+-	Ensure failure of a transaction displays message and prompts user for another transaction
+-	Ensure printed receipt is valid
+    -	Successful transaction
+    -	Date
+    -	Time
+    -	Machine location
+    -	Type of transaction
+    -	Accounts 
+    -	Amount 
+    -	Ending and available balance
+-	Ensure servicing is valid - on and off switch
+-	Ensure logging transactions works
 
 From this list, we executed tests for each function and tried various edge cases and regular use cases to extensively test each feature. We documented any bugs we found in our pairs and convened as a group to evaluate the system’s bugs. We performed the extensive exploratory testing phases separately as groups
 
@@ -123,8 +123,8 @@ One thing we would like to improve in future iterations is a consistent naming s
 # How the pair testing was managed and team work/effort was divided 
 
 We divided the exploratory testing into groups of 2 and 3 and tested the program freely for 30 minutes. Our testing pairs were as follows:
-●	Testing Pair #1: Jenn Bushey & Mehreen Akmal
-●	Testing Pair #2: Hao Liu, Eric Diep, & Corey Yang-Smith
+-	Testing Pair #1: Jenn Bushey & Mehreen Akmal
+-	Testing Pair #2: Hao Liu, Eric Diep, & Corey Yang-Smith
 
 We tested in a logical use fashion. System startup followed by card and PIN input, followed by checking account balances before attempting withdrawal. After the exploratory testing phase, we compared as a group our findings for version 1.0 and entered our bugs into Azure.
 
